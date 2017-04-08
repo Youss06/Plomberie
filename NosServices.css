@@ -1,0 +1,67 @@
+body {
+  background-color: #8B4513;
+}
+
+header{
+  text-align: center;
+  color: #F0FFF0;
+}
+
+
+nav{
+  height: 100px;
+  width: 600px;
+  position: relative;
+  left : 710px;
+}
+
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+.logo {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dépannages {
+  display: inline-block;
+  width: 600px;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+figure {
+  display: inline-block;
+}
+.tarif {
+  vertical-align: 110px;
+  display: inline-block;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.entretien {
+display: inline-block;
+width: 600px;
+}
+
+
+.installations {
+  vertical-align: 110px;
+  display: inline-block;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.réparations {
+display: inline-block;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
