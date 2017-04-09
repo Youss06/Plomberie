@@ -38,3 +38,34 @@ input {
 .texte {
   height: 100px;
 }
+
+
+@media (max-width: 393px) {
+  body {
+    background-color: #8B4513;
+  }
+  header{
+    text-align: center;
+    color: #F0FFF0;
+  }
+  nav{
+    height: 70px;
+    width: 10px;
+    position: relative;
+    left : 210px;
+  }
+  li {
+    display: inline;
+    list-style: none;
+  }
+  .logo {
+    width: 200px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+
+  iframe {
+    width: 380px;
+  }
+}
