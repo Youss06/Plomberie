@@ -65,3 +65,47 @@ display: inline-block;
   border-collapse: collapse;
   border: 1px solid black;
 }
+
+@media (max-width: 393px) {
+  body {
+    background-color: #8B4513;
+  }
+  header{
+    text-align: center;
+    color: #F0FFF0;
+  }
+  nav{
+    height: 70px;
+    width: 10px;
+    position: relative;
+    left : 210px;
+  }
+  li {
+    display: inline;
+    list-style: none;
+  }
+  .logo {
+    width: 200px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+.dépannages {
+  float: left;
+  display: inline-block;
+  width: 300px;
+}
+.entretien {
+  float: left;
+  display: inline-block;
+  width: 300px;
+}
+
+
+.plombier {
+  float: left;
+  display: inline-block;
+  width: 300px;
+}
+
+}
