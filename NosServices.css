@@ -7,10 +7,12 @@ header{
   color: #F0FFF0;
 }
 
-
+a {
+  color: white;
+}
 nav{
-  height: 100px;
-  width: 600px;
+  height: 100%;
+  width: 30%;
   position: relative;
   left : 710px;
 }
@@ -80,6 +82,9 @@ display: inline-block;
     position: relative;
     left : 210px;
   }
+  a {
+    color: white;
+  }
   li {
     display: inline;
     list-style: none;
@@ -108,4 +113,56 @@ display: inline-block;
   width: 300px;
 }
 
+}
+
+
+@media (min-width: 394px) and (max-width: 991px) {
+  body {
+    background-color: #8B4513;
+  }
+  header{
+    text-align: center;
+    color: #F0FFF0;
+  }
+  nav{
+    height: 100px;
+    width: 80%;
+    position: relative;
+    left : 20%;
+  }
+  a {
+    color: white;
+  }
+  li {
+    display: inline;
+    list-style: none;
+  }
+  .logo {
+    width: 55%;
+    display: block;
+    margin-left: 110px;
+    margin-right: auto;
+}
+
+
+.dépannages {
+  display: inline-block;
+width: 40%;
+}
+
+.entretien {
+  width: 40%;
+  display: inline-block;
+}
+
+.tarif {
+  display: inline-block;
+  position: relative;
+  left: 41%;
+}
+
+.entretien {
+  position: relative;
+  left: 50%;
+}
 }
