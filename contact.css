@@ -10,7 +10,7 @@ header{
 
 nav{
   height: 100px;
-  width: 600px;
+  width: 500px;
   position: relative;
   left : 710px;
 }
@@ -28,6 +28,8 @@ li {
   margin-right: auto;
 }
 
+
+
 form {
   display: block;
 }
@@ -37,6 +39,15 @@ input {
 
 .texte {
   height: 100px;
+}
+.contact {
+  display: inline-block;
+}
+
+.qui {
+  display: inline-block;
+  width: 300px;
+  margin-left: 300px;
 }
 
 
@@ -68,4 +79,45 @@ input {
   iframe {
     width: 380px;
   }
+}
+
+@media (max-width: 393px) {
+  body {
+    background-color: #8B4513;
+  }
+  header{
+    text-align: center;
+    color: #F0FFF0;
+  }
+  nav{
+    height: 70px;
+    width: 10px;
+    position: relative;
+    left : 210px;
+  }
+  li {
+    display: inline;
+    list-style: none;
+  }
+  .logo {
+    width: 200px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+
+.contact {
+display: block;
+}
+
+.qui {
+
+  margin: auto 0 auto 1em;
+  width: 200px;
+display: block;
+}
+.map {
+  text-align: center;
+  margin: auto;
+}
 }
