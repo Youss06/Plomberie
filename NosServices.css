@@ -68,6 +68,7 @@ display: inline-block;
   border: 1px solid black;
 }
 
+
 @media (max-width: 393px) {
   body {
     background-color: #8B4513;

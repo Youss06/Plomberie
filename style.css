@@ -11,7 +11,7 @@ header{
 
 nav{
   height: auto;
-  width: 100%;
+  width: 30%;
   position: relative;
   left : 710px;
 }
@@ -21,8 +21,8 @@ a {
 
 li {
   width: 60%;
-  height: 40%
-  display: inline;
+  height: 40%;
+  display: inline-block;;
   list-style: none;
 }
 
@@ -55,8 +55,13 @@ figcaption {
   display: inline-block;
 }
 footer {
-
-  background-color: #E6E6FA;
+  display: inline-block;
+    color: white;
+  position:absolute;
+  width:99%;
+  background: #404040 ;
+  border-top: 2px solid #FFFFFF;
+  }
 }
 
 @media (max-width: 393px) {
@@ -68,10 +73,10 @@ footer {
     color: #F0FFF0;
   }
   nav{
-    height: 70px;
-    width: 10px;
+    /*height: 10%;
+    width: 10%;*/
     position: relative;
-    left : 210px;
+    /*left : 0%;*/
   }
   a {
     color: white;
@@ -133,6 +138,6 @@ figcaption {
   display: inline-block;
 }
 footer {
-  border-radius: 
+  border-radius:
 }
 }
